@@ -1,0 +1,49 @@
+# Основні залежності для детектора ліній електропередач
+# Core dependencies for powerlines detector
+
+# YOLOv8 framework
+ultralytics>=8.0.0
+
+# Computer Vision
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+
+# Image processing
+pillow>=10.0.0
+
+# Scientific computing
+numpy>=1.24.0
+
+# PyTorch (CPU version - для GPU використовуйте torch з CUDA)
+# PyTorch (CPU version - for GPU use torch with CUDA)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Progress bars
+tqdm>=4.65.0
+
+# Data handling
+pandas>=2.0.0
+
+# Опціональні залежності
+# Optional dependencies
+
+# Для експорту моделей (ONNX, TensorFlow, etc.)
+# For model export (ONNX, TensorFlow, etc.)
+# onnx>=1.14.0
+# onnxruntime>=1.15.0
+# tensorflow>=2.13.0
+
+# Для веб-інтерфейсу
+# For web interface
+# streamlit>=1.25.0
+# gradio>=3.40.0
+
+# Для роботи з відео
+# For video processing
+# imageio>=2.31.0
+# imageio-ffmpeg>=0.4.8
